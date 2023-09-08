@@ -1,0 +1,10 @@
+.header {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 42px;
+}

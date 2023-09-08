@@ -1,0 +1,18 @@
+.cell {
+  display: flex;
+  border-bottom: 1px solid #222;
+  border-right: 1px solid #222;
+  aspect-ratio: 1/1;
+  place-items: center;
+  place-content: center;
+}
+
+.cell:hover {
+  background-color: #777;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.cellContent {
+  font-size: 64px;
+}
